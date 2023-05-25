@@ -1,72 +1,10 @@
 {
   "Alarms": {
-    "Test": {
-      "Active": true,
-      "Hour": "00:10",
-      "Message": "Test",
-      "Repeat": "Everyday"
-    },
-
     "DailyAlarm1": {
       "Active": true,
+      "Alarm_name": "DailyAlarm1",
       "Hour": "00:10",
       "Message": "LOS or SAW Registration",
-      "Repeat": "Everyday"
-    },
-
-    "DailyAlarm2": {
-      "Active": true,
-      "Hour": "00:25",
-      "Message": "LOS or SAW 5 minutes later",
-      "Repeat": "Everyday"
-    },
-
-    "DailyAlarm3": {
-      "Active": true,
-      "Hour": "00:30",
-      "Message": "LOS or SAW Now",
-      "Repeat": "Everyday"
-    },
-
-    "DailyAlarm4": {
-      "Active": true,
-      "Hour": "02:00",
-      "Message": "LOS or SAW Registration",
-      "Repeat": "Everyday"
-    },
-
-    "DailyAlarm5": {
-      "Active": true,
-      "Hour": "02:25",
-      "Message": "LOS or SAW 5 minutes later",
-      "Repeat": "Everyday"
-    },
-
-    "DailyAlarm6": {
-      "Active": true,
-      "Hour": "02:30",
-      "Message": "LOS or SAW Now",
-      "Repeat": "Everyday"
-    },
-
-    "DailyAlarm7": {
-      "Active": true,
-      "Hour": "08:00",
-      "Message": "LOS or SAW Registration",
-      "Repeat": "Everyday"
-    },
-
-    "DailyAlarm8": {
-      "Active": true,
-      "Hour": "08:25",
-      "Message": "LOS or SAW 5 minutes later",
-      "Repeat": "Everyday"
-    },
-
-    "DailyAlarm9": {
-      "Active": true,
-      "Hour": "08:30",
-      "Message": "LOS or SAW Now",
       "Repeat": "Everyday"
     },
     "DailyAlarm10": {
@@ -75,14 +13,12 @@
       "Message": "LOS or SAW Registration",
       "Repeat": "Everyday"
     },
-
     "DailyAlarm11": {
       "Active": true,
       "Hour": "12:25",
       "Message": "LOS or SAW 5 minutes later",
       "Repeat": "Everyday"
     },
-
     "DailyAlarm12": {
       "Active": true,
       "Hour": "12:30",
@@ -95,14 +31,12 @@
       "Message": "LOS or SAW Registration",
       "Repeat": "Everyday"
     },
-
     "DailyAlarm14": {
       "Active": true,
       "Hour": "14:25",
       "Message": "LOS or SAW 5 minutes later",
       "Repeat": "Everyday"
     },
-
     "DailyAlarm15": {
       "Active": true,
       "Hour": "14:30",
@@ -115,19 +49,72 @@
       "Message": "LOS or SAW Registration",
       "Repeat": "Everyday"
     },
-
     "DailyAlarm17": {
       "Active": true,
       "Hour": "20:25",
       "Message": "LOS or SAW 5 minutes later",
       "Repeat": "Everyday"
     },
-
     "DailyAlarm18": {
       "Active": true,
       "Hour": "20:30",
       "Message": "LOS or SAW Now",
       "Repeat": "Everyday"
+    },
+    "DailyAlarm2": {
+      "Active": true,
+      "Hour": "00:25",
+      "Message": "LOS or SAW 5 minutes later",
+      "Repeat": "Everyday"
+    },
+    "DailyAlarm3": {
+      "Active": true,
+      "Hour": "00:30",
+      "Message": "LOS or SAW Now",
+      "Repeat": "Everyday"
+    },
+    "DailyAlarm4": {
+      "Active": true,
+      "Hour": "02:00",
+      "Message": "LOS or SAW Registration",
+      "Repeat": "Everyday"
+    },
+    "DailyAlarm5": {
+      "Active": true,
+      "Hour": "02:25",
+      "Message": "LOS or SAW 5 minutes later",
+      "Repeat": "Everyday"
+    },
+    "DailyAlarm6": {
+      "Active": true,
+      "Hour": "02:30",
+      "Message": "LOS or SAW Now",
+      "Repeat": "Everyday"
+    },
+    "DailyAlarm7": {
+      "Active": true,
+      "Hour": "08:00",
+      "Message": "LOS or SAW Registration",
+      "Repeat": "Everyday"
+    },
+    "DailyAlarm8": {
+      "Active": true,
+      "Hour": "08:25",
+      "Message": "LOS or SAW 5 minutes later",
+      "Repeat": "Everyday"
+    },
+    "DailyAlarm9": {
+      "Active": true,
+      "Hour": "08:30",
+      "Message": "LOS or SAW Now",
+      "Repeat": "Everyday"
+    },
+    "Maintenance": {
+      "Active": false,
+      "Alarm_name": "Maintenance",
+      "Hour": "09:00",
+      "Message": "Maintenance finished",
+      "Repeat": "25.05.2023"
     }
   }
-  }
+}

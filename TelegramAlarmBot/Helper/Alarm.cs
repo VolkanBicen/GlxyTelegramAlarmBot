@@ -17,11 +17,9 @@ namespace TelegramAlarmBot.Helper
             Console.WriteLine(DateTime.Now.ToString("dd.MM.yyyy"));
             #region alrmbot
             List<AlarmModel> alarmList = new List<AlarmModel>();
-            
             Data data = new Data();
-            alarmList = data.GetData();
 
-            System.Timers.Timer timer = new System.Timers.Timer(6000);
+            System.Timers.Timer timer = new System.Timers.Timer(60000);
             timer.Elapsed += TimerElapsed;
             timer.Start();
             Console.WriteLine("Timer başlatıldı. Durdurmak için herhangi bir tuşa basın.");
@@ -30,11 +28,8 @@ namespace TelegramAlarmBot.Helper
             async void TimerElapsed(object sender, ElapsedEventArgs e)
             {
                 var currentTime = DateTime.Now;
-
-                if (currentTime.Minute == 00)
-                {
-                    alarmList = new Data().GetData();
-                }
+                alarmList = new Data().GetData();
+                
                 foreach (var item in alarmList)
                 {
                     if (!item.Active)
