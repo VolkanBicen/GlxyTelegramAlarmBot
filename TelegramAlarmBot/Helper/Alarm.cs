@@ -41,10 +41,8 @@ namespace TelegramAlarmBot.Helper
                     {
                         continue;
                     }
-                    //aaa
                     if (!item.Repeat.Equals("Everyday"))
                     {
-                        var a = DateTime.Parse(currentTime.ToString("dd.MM.yyyy"));
                         if ((DateTime.Parse(item.Repeat) <= DateTime.Parse(currentTime.ToString("dd.MM.yyyy"))) && (DateTime.Parse(item.Hour) < DateTime.Parse(currentTime.ToString("HH:mm"))))
                         {
                             data.DeleteData(item,false);

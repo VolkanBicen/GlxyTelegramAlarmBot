@@ -5,8 +5,6 @@ VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelegramAlarmBot", "TelegramAlarmBot\TelegramAlarmBot.csproj", "{6BE8387F-8789-452E-BA3E-ABE7DC090FED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramAlarmBotWeb", "TelegramAlarmBotWeb\TelegramAlarmBotWeb.csproj", "{0C7DCB09-723C-40BB-A7B6-BF7A3D63C81B}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{6BE8387F-8789-452E-BA3E-ABE7DC090FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BE8387F-8789-452E-BA3E-ABE7DC090FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BE8387F-8789-452E-BA3E-ABE7DC090FED}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0C7DCB09-723C-40BB-A7B6-BF7A3D63C81B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0C7DCB09-723C-40BB-A7B6-BF7A3D63C81B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0C7DCB09-723C-40BB-A7B6-BF7A3D63C81B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0C7DCB09-723C-40BB-A7B6-BF7A3D63C81B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
