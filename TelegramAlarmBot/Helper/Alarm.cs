@@ -41,7 +41,7 @@ namespace TelegramAlarmBot.Helper
                     {
                         continue;
                     }
-
+                    //aaa
                     if (!item.Repeat.Equals("Everyday"))
                     {
                         var a = DateTime.Parse(currentTime.ToString("dd.MM.yyyy"));
