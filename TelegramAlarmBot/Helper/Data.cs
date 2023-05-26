@@ -1,6 +1,7 @@
 ﻿using FireSharp.Config;
 using FireSharp.Interfaces;
 using Newtonsoft.Json;
+using System.Collections.Generic;
 using TelegramAlarmBot.Model;
 
 namespace TelegramAlarmBot.Helper
@@ -31,16 +32,22 @@ namespace TelegramAlarmBot.Helper
 
             return listModel;
 
+
+
+
         }
-        public void DeleteData(AlarmModel model,bool status)
+        public void DeleteData(AlarmModel model, bool status)
         {
+
             model.Active = status;
             client.Update("Alarms/" + model.Alarm_name, model);
+
+
         }
 
         public void InsertData(AlarmModel model)
         {
-            client.Set("Alarms/"+model.Alarm_name,model);
+            client.Set("Alarms/" + model.Alarm_name, model);
         }
     }
 }

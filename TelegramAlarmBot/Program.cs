@@ -8,5 +8,14 @@ using static System.Net.Mime.MediaTypeNames;
 // DENEME: -1001965373215
 // 23.05.2023-09:30
 
-
-new Alarm().getAlarm();
+try
+{
+    new Alarm().getAlarm();
+}
+catch (Exception ex)
+{
+    Console.WriteLine(ex.Message);
+    Thread.Sleep(100000000);
+    throw;
+}
+Console.ReadKey();
