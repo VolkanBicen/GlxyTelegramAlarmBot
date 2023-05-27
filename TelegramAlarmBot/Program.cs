@@ -34,7 +34,7 @@ async void TimerElapsed(object sender, ElapsedEventArgs e)
 
         if (String.IsNullOrEmpty(item.Repeat))
         {
-            if (item.Date.Date <= DateTime.UtcNow.Date && parseHour < DateTime.Parse(currentTime.ToShortTimeString()))
+            if (item.Date.Date <= DateTime.UtcNow.Date && parseHour < DateTime.Parse(currentTime.ToString("HH:mm")))
             {
                 data.DeleteData(item, false);
             }
